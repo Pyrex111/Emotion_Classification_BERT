@@ -1,0 +1,10 @@
+# Preserve original notebook and dataset bytes.
+*.ipynb -text
+*.csv -text
+*.pdf binary
+*.pptx binary
+
+# Keep repository documentation consistent across platforms.
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

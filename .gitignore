@@ -1,0 +1,25 @@
+# Python and notebook runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Generated model and evaluation artifacts
+*.pth
+*.pt
+checkpoints/
+classification_report_test_set.csv
+Test Set Confusion Matrix.jpg
+Training & Validation Errors vs Epochs.pdf
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
